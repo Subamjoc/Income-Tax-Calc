@@ -54,7 +54,7 @@ const updateData = (netTax) => {
 form.addEventListener('submit', (event)=>{
     event.preventDefault();
 
-    const income = Number(form.income.value);
+    income = Number(form.income.value);
     const netTax = calclculatorIncomeTax();
 
     // alert(`The income tax of your Annual Income is: ${netTax}`);
