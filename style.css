@@ -1,0 +1,90 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    margin: 0;
+    background-color: whitesmoke;
+}
+h1{
+    background-color: #14213d;
+    color: whitesmoke;
+    padding: 24px;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+.calculator-container{
+    margin: 44px;
+}
+h2{
+    font-size: 35px;
+    margin-left: 180px;
+}
+.left{
+    margin-top: 30px;
+    margin-left: 310px;
+}
+h3{
+    font-size: 25px;
+    margin-left: 22px;
+}
+.basic-details{
+    border: solid black 1.5px;
+    width: 350px;
+    padding-left: 20px;
+    gap: 1px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.basic-details p{
+    margin: 3px;
+    padding: 1px 5px;
+    opacity: 0.5;
+}
+.basic-details h5{
+    margin: 3px;
+    padding: 1px 5px;
+    font-weight: 550;
+}
+.age{
+    border: solid black 1.5px;
+    width: 350px;
+    padding-left: 20px;
+    gap: 1px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.age p{
+    margin: 3px;
+    padding: 1px 5px;
+    opacity: 0.5;
+}
+.age h5{
+    margin: 3px;
+    padding: 1px 5px;
+    font-weight: 550;
+} 
+input{
+    border: solid black 1.5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 321px;
+    height: 47px;
+    margin: 3px;
+    padding: 1px 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 68px;
+    width: 220px;
+    height: 43px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    border-radius: 20px;
+    background-color: #04AA6D;
+    color: whitesmoke;
+    border: solid #C0C0C0 1.5px;
+    cursor: pointer;
+}

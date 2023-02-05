@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Income Tax Calculator</h1>
+    <div class="calculator-container">
+        <h2>Calculate your Income Tax (New Regime)</h2>
+        <div class="left">
+            <h3>Basic Details</h3>
+            <div class="basic-details">
+                <p>Financial Year</p>
+                <h5>FY 2023-24</h5>
+            </div>
+            <div class="age">
+                <p>Age</p>
+                <h5>Below 60 Years</h5>
+            </div>
+            <form id="income-dettail-form">
+                <div class="income-details">
+                    <label for="income">
+                        <h3>Income Details</h3>
+                    </label>
+                    <div class="input"><input type="text" id="income"  placeholder="Net Taxable Income" required/></div>
+                    <button type="submit">Calculate</button>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+        
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js" integrity="sha512-qKyIokLnyh6oSnWsc5h21uwMAQtljqMZZT17CIMXuCQNIfFSFF4tJdMOaJHL9fQdJUANid6OB6DRR0zdHrbWAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
