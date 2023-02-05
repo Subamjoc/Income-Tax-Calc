@@ -5,8 +5,13 @@ const incomeTaxAfterValue = document.querySelector('.Income-tax-after .value');
 const healthCssValue = document.querySelector('.health-css .value');
 const netTaxValue = document.querySelector('.Net-tax .value');
 
-function calclculatorIncomeTax(income){
-    let tax= 0;
+console.log("taxableIncomeValue", taxableIncomeValue);
+
+let income, health, tax;
+
+function calclculatorIncomeTax(){
+    let netTax = 0;
+    (tax = 0), (health = 0);
     if(income <=700000){
         tax = 0;
     }else if(income >700000 && income <=900000){
@@ -50,11 +55,9 @@ form.addEventListener('submit', (event)=>{
     event.preventDefault();
 
     const income = Number(form.income.value);
-    const netTax = calclculatorIncomeTax(income);
+    const netTax = calclculatorIncomeTax();
 
-    alert(`The income tax of your Annual Income is: ${netTax}`);
-})
+    // alert(`The income tax of your Annual Income is: ${netTax}`);
 
-const init = () => {
-    let netTax = updateData(netTax);
-};
+    updateData(netTax);
+});
