@@ -4,6 +4,9 @@ body{
     margin: 0;
     background-color: whitesmoke;
 }
+
+/*************Heading***************/
+
 h1{
     background-color: #14213d;
     color: whitesmoke;
@@ -13,6 +16,8 @@ h1{
     font-size: 40px;
     width: 100%;
 }
+
+
 .calculator-container{
     margin: 44px;
 }
@@ -20,6 +25,9 @@ h2{
     font-size: 35px;
     margin-left: 180px;
 }
+
+/**Left Partr**/
+
 .left{
     margin-top: 30px;
     margin-left: 190px;
@@ -89,6 +97,9 @@ button{
     border: solid #C0C0C0 1.5px;
     cursor: pointer;
 }
+
+/**Right Part**/
+
 .right{
     display: flex;
     justify-content: flex-end;
