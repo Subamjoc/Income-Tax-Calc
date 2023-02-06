@@ -1,8 +1,8 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
     margin: 0;
     background-color: whitesmoke;
+    width: auto;
 }
 
 /*************Heading***************/
@@ -14,23 +14,18 @@ h1{
     margin: 0;
     text-align: center;
     font-size: 40px;
-    width: 100%;
-}
-
-
-.calculator-container{
-    margin: 44px;
+    
 }
 h2{
     font-size: 35px;
-    margin-left: 180px;
+    margin-left: 80px;
 }
 
 /**Left Partr**/
 
 .left{
-    margin-top: 30px;
-    margin-left: 190px;
+    margin-top: 50px;
+    margin-left: 80px;
 }
 h3{
     font-size: 25px;
@@ -102,11 +97,11 @@ button{
 
 .right{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 .calculation-detail{
     position: relative;
-    top: -115px;
+    top: -130px;
 }
 .right-bottom{
     display: grid;
