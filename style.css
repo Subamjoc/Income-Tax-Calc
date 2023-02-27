@@ -1,190 +1,188 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
-    background-color: whitesmoke;
-    width: auto;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+  width: auto;
 }
 
 /*************Heading***************/
 
-h1{
-    background-color: #14213d;
-    color: whitesmoke;
-    padding: 24px;
-    margin: 0;
-    text-align: center;
-    font-size: 40px;
-    
+h1 {
+  background-color: #14213d;
+  color: whitesmoke;
+  padding: 24px;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
 }
-h2{
-    font-size: 35px;
-    margin-left: 80px;
+h2 {
+  font-size: 35px;
+  margin-left: 80px;
 }
 
 /**Left Partr**/
 
-.left{
-    margin-top: 50px;
-    margin-left: 80px;
+.left {
+  margin-top: 50px;
+  margin-left: 80px;
 }
-h3{
-    font-size: 25px;
-    margin-left: 5px;
+h3 {
+  font-size: 25px;
+  margin-left: 5px;
 }
-.basic-details{
-    border: solid black 1.5px;
-    width: 350px;
-    padding-left: 20px;
-    gap: 1px;
-    border-radius: 5px;
-    margin-bottom: 25px;
+.basic-details {
+  border: solid black 1.5px;
+  width: 350px;
+  padding-left: 20px;
+  gap: 1px;
+  border-radius: 5px;
+  margin-bottom: 25px;
 }
-.basic-details p{
-    margin: 3px;
-    padding: 1px 5px;
-    opacity: 0.5;
-    font-size: 13px;
+.basic-details p {
+  margin: 3px;
+  padding: 1px 5px;
+  opacity: 0.5;
+  font-size: 13px;
 }
-.basic-details h5{
-    margin: 3px;
-    padding: 1px 5px;
-    font-weight: 550;
+.basic-details h5 {
+  margin: 3px;
+  padding: 1px 5px;
+  font-weight: 550;
 }
-.age{
-    border: solid black 1.5px;
-    width: 350px;
-    padding-left: 20px;
-    gap: 1px;
-    border-radius: 5px;
-    margin-bottom: 25px;
+.age {
+  border: solid black 1.5px;
+  width: 350px;
+  padding-left: 20px;
+  gap: 1px;
+  border-radius: 5px;
+  margin-bottom: 25px;
 }
-.age p{
-    margin: 3px;
-    padding: 1px 5px;
-    opacity: 0.5;
-    font-size: 13px;
+.age p {
+  margin: 3px;
+  padding: 1px 5px;
+  opacity: 0.5;
+  font-size: 13px;
 }
-.age h5{
-    margin: 3px;
-    padding: 1px 5px;
-    font-weight: 550;
-} 
-input{
-    border: solid #14213d 1.5px;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    width: 321px;
-    height: 47px;
-    margin: 3px;
-    padding: 1px 23px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+.age h5 {
+  margin: 3px;
+  padding: 1px 5px;
+  font-weight: 550;
 }
-button{
-    margin-top: 25px;
-    margin-left: 68px;
-    width: 220px;
-    height: 43px;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 550;
-    border-radius: 20px;
-    background-color: #04AA6D;
-    color: whitesmoke;
-    border: solid #C0C0C0 1.5px;
-    cursor: pointer;
+input {
+  border: solid #14213d 1.5px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width: 321px;
+  height: 47px;
+  margin: 3px;
+  padding: 1px 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+button {
+  margin-top: 25px;
+  margin-left: 68px;
+  width: 220px;
+  height: 43px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 550;
+  border-radius: 20px;
+  background-color: #04aa6d;
+  color: whitesmoke;
+  border: solid #c0c0c0 1.5px;
+  cursor: pointer;
 }
 
 /**Right Part**/
 
-.right{
-    display: flex;
-    justify-content: space-around;
+.right {
+  display: flex;
+  justify-content: space-around;
 }
-.calculation-detail{
-    position: relative;
-    top: -130px;
+.calculation-detail {
+  position: relative;
+  top: -130px;
 }
-.right-bottom{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+.right-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
 }
-.light-green-dot{
-    height: 25px;
-    width: 40px;
-    background-color: #CEF5E1;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
+.light-green-dot {
+  height: 25px;
+  width: 40px;
+  background-color: #cef5e1;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
 }
-.light-yellow-dot{
-    height: 25px;
-    width: 40px;
-    background-color: #6dc0d6;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
+.light-yellow-dot {
+  height: 25px;
+  width: 40px;
+  background-color: #6dc0d6;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
 }
-.blue-dot{
-    height: 25px;
-    width: 40px;
-    background-color: #f6c86e;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
+.blue-dot {
+  height: 25px;
+  width: 40px;
+  background-color: #f6c86e;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
 }
-.green-dot{
-    height: 25px;
-    width: 40px;
-    background-color: #3CB371;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center;
+.green-dot {
+  height: 25px;
+  width: 40px;
+  background-color: #3cb371;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
 }
-h4{
-    display: inline-block;
-    margin: 7px 15px;
-    position: relative;
-    top: -10px;
-    font-size: 15px;
-    opacity: 0.6;
+h4 {
+  display: inline-block;
+  margin: 7px 15px;
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+  opacity: 0.6;
 }
-.value{
-    margin-left: 65px;
-    padding-top: 10px;
-    position: relative;
-    top: -13px;
-    border-bottom: solid #14213d 1px;
-    margin-bottom: 25px;
+.value {
+  margin-left: 65px;
+  padding-top: 10px;
+  position: relative;
+  top: -13px;
+  border-bottom: solid #14213d 1px;
+  margin-bottom: 25px;
 }
 
 /***Donut Pie Chart***/
 
 .donut-chart {
-    width: 220px; height: 220px;
-    border-radius: 50%;
-    justify-content: space-between;
-    background: conic-gradient(
-      #CEF5E1 0deg 310deg,
-      #3CB371 310deg 360deg
-    );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  justify-content: space-between;
+  background: conic-gradient(#cef5e1 0deg 310deg, #3cb371 310deg 360deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hole {
-    width: 170px; height: 170px;
-    border-radius: 50%;
-    background: #fff;
-    text-align: center;
-    align-items: center;
-  }
-  .chart{
-    position: relative;
-    top: -430px;
-    left: 50%;
-  }
-  .hole p{
-    margin-top: 67px;
-  }
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  align-items: center;
+}
+.chart {
+  position: relative;
+  top: -430px;
+  left: 50%;
+}
+.hole p {
+  margin-top: 67px;
+}
